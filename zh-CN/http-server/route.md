@@ -173,6 +173,6 @@ class UserController
 你可以在中间件或者action拿到路由匹配的结果信息。
 
 ```php
-[$status, $path, $route] = $request->getAttribute(Request::ROUTER_ATTRIBUTE);
+[$status, $path, $route] = $request->getAttribute(\Swoft\Http\Message\Request::ROUTER_ATTRIBUTE);
 ```
 
